@@ -1,0 +1,50 @@
+public class Tema4 {
+    public static void main(String [] args) {
+    int numerolf = -28;
+        if (numerolf > 0) {
+            System.out.println("El numero es positivo");
+        } else if (numerolf < 0) {
+            System.out.println("El numero es negativo");
+        } else {
+            System.out.println("El numero es 0");
+                }
+
+
+    int numeroWhile = 0;
+    while (numeroWhile < 3){
+        numeroWhile ++;
+        System.out.println(numeroWhile);
+        }
+
+    numeroWhile = 0;
+    do {
+        System.out.println(numeroWhile);
+        numeroWhile ++;
+    } while (numeroWhile <= 0);
+
+
+    for (int numeroFor = 0; numeroFor <= 3; numeroFor ++) {
+        System.out.println(numeroFor);
+    }
+
+    var estacion = "churros";
+    switch (estacion) {
+        case "verano":
+            System.out.println("Es verano");
+            break;
+        case "invierno":
+            System.out.println("Es invierno");
+            break;
+        case "otoño":
+            System.out.println("Es otoño");
+            break;
+        case "primavera":
+            System.out.println("Es primavera");
+            break;
+        default:
+            System.out.println("Error. Indicar estación");
+
+    }
+
+            }
+}
